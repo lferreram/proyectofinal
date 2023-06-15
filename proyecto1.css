@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    background:pink;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    align-items:center ;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    margin: auto;
+}
+
+/*Arreglando la caja del titulo*/
+.titulo {
+    text-align: center;
+    color: rgb(111, 34, 121);
+    border-style: double;
+    padding: 7px;
+}
+
+/*Arreglado colores de usuario y contraseña*/
+.registro{
+    color:rgb(35, 35, 109);
+    flex-direction: column;
+    display: flex;
+}
+
+/*El tamaño de la caja de los inputs*/
+input{
+    padding: 3px;
+}
+/*El color de la caja de los inputs*/
+input:focus{
+    outline: solid green 3px;
+}
+
+/*Arreglando boton de agregar*/
+.boton{
+    background-color: green;
+    border:none;
+    padding: 8px;
+    color:white
+}
+
